@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://kingdom-name-generator.com',
+      url: 'https://kingdomnamegenerator.pro/',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,

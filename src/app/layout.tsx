@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     images: ['/api/og'],
   },
   verification: {
-    google: 'your-google-site-verification',
+    google: 'TDYtDY0_Wc7kS1Hw6DgU_VKPxUCpnphlN7Tdux3rS6k',
   },
   alternates: {
     canonical: 'https://kingdomnamegenerator.pro/',
