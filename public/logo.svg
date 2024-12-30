@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主要皇冠形状 -->
+  <path d="M256 80
+           L176 240
+           L96 160
+           L60 300
+           L452 300
+           L416 160
+           L336 240
+           L256 80Z" 
+        fill="#8c7f52" 
+        stroke="#6f6442" 
+        stroke-width="20"
+        stroke-linejoin="round"/>
+  
+  <!-- 皇冠顶部的装饰球 -->
+  <circle cx="256" cy="80" r="24" fill="#b0a574"/>
+  <circle cx="96" cy="160" r="20" fill="#b0a574"/>
+  <circle cx="416" cy="160" r="20" fill="#b0a574"/>
+  
+  <!-- 皇冠底部 -->
+  <path d="M60 320
+           L452 320
+           L432 380
+           L80 380
+           Z"
+        fill="#8c7f52"
+        stroke="#6f6442"
+        stroke-width="20"
+        stroke-linejoin="round"/>
+</svg>

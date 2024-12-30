@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#F8F7FF"/>
+  
+  <!-- Crown -->
+  <g transform="translate(450,150) scale(0.8)">
+    <path d="M400 50L300 200L200 50L100 200L0 50V250H400V50Z" fill="#4338CA" stroke="#312E81" stroke-width="8"/>
+    <circle cx="0" cy="50" r="20" fill="#312E81"/>
+    <circle cx="100" cy="200" r="20" fill="#312E81"/>
+    <circle cx="200" cy="50" r="20" fill="#312E81"/>
+    <circle cx="300" cy="200" r="20" fill="#312E81"/>
+    <circle cx="400" cy="50" r="20" fill="#312E81"/>
+  </g>
+
+  <!-- Text -->
+  <text x="600" y="400" text-anchor="middle" font-family="Inter" font-weight="bold" font-size="64" fill="#1E1B4B">
+    Kingdom Name Generator
+  </text>
+  <text x="600" y="460" text-anchor="middle" font-family="Inter" font-size="32" fill="#4338CA">
+    Create unique names for your fantasy kingdoms
+  </text>
+</svg>
