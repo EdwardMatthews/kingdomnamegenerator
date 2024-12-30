@@ -1,10 +1,14 @@
 import { ImageResponse } from 'next/og'
-import { OgImage } from '../../../../public/OgImage'
+import SvgOgImage from '../../../../public/OgImage'
  
 export const runtime = 'edge'
  
 export async function GET() {
   try {
+    const fontData = await fetch(
+      new URL('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap')
+    ).then((res) => res.arrayBuffer())
+
     return new ImageResponse(
       (
         <div
@@ -17,12 +21,19 @@ export async function GET() {
             backgroundColor: '#F8F7FF',
           }}
         >
-          <OgImage />
+          <SvgOgImage />
         </div>
       ),
       {
         width: 1200,
         height: 630,
+        fonts: [
+          {
+            name: 'Inter',
+            data: fontData,
+            style: 'normal',
+          },
+        ],
       }
     )
   } catch (e) {
