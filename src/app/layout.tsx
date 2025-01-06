@@ -50,6 +50,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://kingdomnamegenerator.pro/',
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
