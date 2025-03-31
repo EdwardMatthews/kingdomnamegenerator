@@ -109,6 +109,19 @@ export default function Footer() {
                   </svg>
                 </a>
               </li>
+              <li>
+                <a 
+                  href="https://www.pdftomarkdown.pro/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors group flex items-center"
+                >
+                  <span>PDF to Markdown</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
