@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://pdftomarkdown.pro/" 
+                  href="https://www.google.com/url?sa=E&q=https%3A%2F%2Fpdftomarkdown.pro%2F" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors group flex items-center"
